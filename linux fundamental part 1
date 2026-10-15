@@ -1,6 +1,17 @@
 directory commands
+whoami : it itewlls which user you are using right now
+
+echo: output some specific text that provider => echo "hello world!"
+
+cat : show the content of a file => cat notepad.txt
+
 cd : change directory => cd ./my-directory
 
 ls: show list of files => ls , ls -a : it show also hidden files
 
 pwd: it prints all way to current directory
+
+find : search for file by their name => find -name pasword.txt
+
+grep : search inside for text for example => grep "pasword123" pasword.txt
+
