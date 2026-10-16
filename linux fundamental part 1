@@ -15,3 +15,10 @@ find : search for file by their name => find -name pasword.txt
 
 grep : search inside for text for example => grep "pasword123" pasword.txt
 
+touch : create file => touch note.txt
+
+cp: copy file => cp note.txt | cp note.txt ./newfolder
+
+mv: move or rename file and directory => mv note.txt ../ |  mv note.text rename.txt
+
+rm : remove file or directory
