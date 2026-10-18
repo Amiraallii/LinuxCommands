@@ -1,15 +1,15 @@
 directory commands
 whoami : it itewlls which user you are using right now
 
-echo: output some specific text that provider => echo "hello world!"
+echo : output some specific text that provider => echo "hello world!"
 
 cat : show the content of a file => cat notepad.txt
 
 cd : change directory => cd ./my-directory
 
-ls: show list of files => ls , ls -a : it show also hidden files
+ls : show list of files => ls , ls -a : it show also hidden files
 
-pwd: it prints all way to current directory
+pwd : it prints all way to current directory
 
 find : search for file by their name => find -name pasword.txt
 
@@ -17,8 +17,30 @@ grep : search inside for text for example => grep "pasword123" pasword.txt
 
 touch : create file => touch note.txt
 
-cp: copy file => cp note.txt | cp note.txt ./newfolder
+cp : copy file => cp note.txt | cp note.txt ./newfolder
 
-mv: move or rename file and directory => mv note.txt ../ |  mv note.text rename.txt
+mv : move or rename file and directory => mv note.txt ../ |  mv note.text rename.txt
 
 rm : remove file or directory
+
+file : identitify file type => file note.txt
+
+su : switch user => su Admin1
+
+operators 
+
+& : runs the command but does not wait for it to finish before you can do any thing else. the command runs in the background.
+
+&& : run both command but wait for the first command ti finish first
+
+> : used to redirect output. we can take the output of a command and send it to a file
+
+>> : this redirector does the something but instead of overwriting. it will just add the output to the bottom of the file.
+
+ls -l : rw-r-r it shows file permission => first part for root, second part for group, third part for other
+
+chmod : it means change mode you can change permissions => chmode 640 normal.txt
+
+chown : change owner of file  => chown  user note.txt
+
+groups : display groups of user
