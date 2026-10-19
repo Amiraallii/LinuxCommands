@@ -44,3 +44,11 @@ chmod : it means change mode you can change permissions => chmode 640 normal.txt
 chown : change owner of file  => chown  user note.txt
 
 groups : display groups of user
+
+sudo : change to root
+
+exit : you exit from the shell
+
+stat : open the file , displays meta data => stat note.txt
+
+umask : it's a command that mak a permission default for creating next directory or file.
