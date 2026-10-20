@@ -52,3 +52,28 @@ exit : you exit from the shell
 stat : open the file , displays meta data => stat note.txt
 
 umask : it's a command that mak a permission default for creating next directory or file.
+
+nano : it opens text files in a text editor => nano filename
+
+vim : it opens text files in a text editor => vim filename
+
+wget : it downloads a file => wget https://example.com/ | Choose the output filename > wget -O example.html https://example.com/
+
+scp : secure file transfer between hosts by ssh => 
+scp notes.txt analyst@192.168.1.30:/home/analyst/notes.txt
+scp analyst@192.168.1.30:/home/analyst/report.txt ./report.txt
+
+python3: python3 -m http.server — Start a temporary web server
+
+ps : show proccess status => ps aux a- for terminal , -u user info, -x any
+important column => user : proccess owner, pid: proccess id, cpu : cpu usage, mem : memory usage, stat: proccess status, command : executed command
+
+kill : stop proccess by id => kill 1234
+
+jobs : display jobs status 
+
+foreground jobf : 
+sleep 60 &  => it 
+fg => foreground job
+bg => background job
+
