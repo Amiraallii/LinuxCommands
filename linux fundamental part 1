@@ -76,3 +76,4 @@ foreground jobf :
 sleep 60 &  => it 
 fg => foreground job
 bg => background job
+.
